@@ -21,7 +21,7 @@ class CreateAccount extends Component {
       },
       body: JSON.stringify(this.state)
     });
-    console.log(this.state);
+    // console.log(this.state);
   };
   // this here sets the new state to the fields name (needed so it can be saved)
   onFieldchange = event => {

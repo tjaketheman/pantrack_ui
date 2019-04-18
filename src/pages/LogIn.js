@@ -10,7 +10,7 @@ class LogIn extends Component {
   // this here is preventing the page reloading on the submit and saving the state of the form to the console
   handleSubmit = event => {
     event.preventDefault();
-    console.log(this.state);
+    // console.log(this.state);
   };
   // this here sets the new state to the fields name (needed so it can be saved)
   onFieldchange = event => {
